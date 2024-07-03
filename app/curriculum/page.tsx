@@ -14,7 +14,7 @@ const page = () => {
           <li className="text-[--primary-purple] md:ml-[5%] lg:ml-[10%]">
             Writing
           </li>
-          <li className="text-[--primary-brown] md:ml-[10%] lg:ml-[15%]">
+          <li className="text-[--primary-brown] md:ml-[10%] lg:ml-[20%]">
             Listening
           </li>
           <li className="text-primary md:ml-[15%] lg:ml-[30%]">Speaking</li>
