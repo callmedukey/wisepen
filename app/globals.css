@@ -16,7 +16,7 @@
     --primary: 212.5 100% 23.9%;
     --primary-foreground: 60 9.1% 97.8%;
 
-    --secondary: 60 4.8% 95.9%;
+    --secondary: 212 46% 51%;
     --secondary-foreground: 24 9.8% 10%;
 
     --muted: 60 4.8% 95.9%;
@@ -33,6 +33,12 @@
     --ring: 20 14.3% 4.1%;
 
     --radius: 0.5rem;
+
+    --primary-green: #007a05;
+    --primary-purple: #7a0075;
+    --primary-brown: #7a4200;
+    --primary-yellow: #ffc700;
+    --primary-gray: #ececec;
   }
 
   .dark {
@@ -81,5 +87,16 @@
   .location::after {
     content: "";
     @apply absolute left-[50%] -translate-x-[50%] -bottom-3 rounded-full size-1.5 bg-white;
+  }
+
+  .sun-container {
+    @apply relative overflow-hidden;
+  }
+
+  .sun-container::after {
+    content: "";
+    @apply absolute top-[-25%] -right-[150px] size-[400px] rounded-full;
+
+    background-color: var(--primary-yellow);
   }
 }
