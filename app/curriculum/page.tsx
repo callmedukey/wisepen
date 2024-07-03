@@ -426,11 +426,13 @@ const page = () => {
                 </td>
               </tr>
             </tbody>
+            <tfoot className="text-base font-medium">
+              <tr className="flex flex-col py-24">
+                <td>* E group - Elementary (초)</td>
+                <td>* M group - Middle (중)</td>
+              </tr>
+            </tfoot>
           </table>
-          <div className="py-24 flex flex-col text-base font-medium">
-            <span>* E group - Elementary (초)</span>
-            <span>* M group - Middle (중)</span>
-          </div>
         </article>
       </section>
     </main>
