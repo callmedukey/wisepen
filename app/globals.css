@@ -95,7 +95,7 @@
 
   .sun-container::after {
     content: "";
-    @apply absolute top-[-25%] -right-[150px] size-[400px] rounded-full;
+    @apply absolute lg:top-[-25%] top-[-10%] right-[-100px] lg:right-[-150px] lg:size-[400px] rounded-full size-[200px];
 
     background-color: var(--primary-yellow);
   }

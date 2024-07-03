@@ -8,14 +8,18 @@ const page = () => {
           </h1>
         </div>
       </div>
-      <section className="px-16 grid grid-cols-[45%_55%] py-16 font-gmarketSans">
-        <ul className="text-5xl font-bold space-y-1.5">
+      <section className="lg:px-16 px-4 grid md:grid-cols-[45%_55%] py-16 font-gmarketSans gap-y-16 md:gap-y-0">
+        <ul className="text-5xl font-bold space-y-1.5 text-center md:text-left grid sm:grid-cols-2 md:block">
           <li className="text-[--primary-green]">Reading</li>
-          <li className="text-[--primary-purple] ml-[10%]">Writing</li>
-          <li className="text-[--primary-brown] ml-[20%]">Listening</li>
-          <li className="text-primary ml-[30%]">Speaking</li>
+          <li className="text-[--primary-purple] md:ml-[5%] lg:ml-[10%]">
+            Writing
+          </li>
+          <li className="text-[--primary-brown] md:ml-[10%] lg:ml-[15%]">
+            Listening
+          </li>
+          <li className="text-primary md:ml-[15%] lg:ml-[30%]">Speaking</li>
         </ul>
-        <article className="flex items-start justify-center flex-col gap-12">
+        <article className="flex items-start justify-center flex-col gap-12 text-center sm:text-left">
           <h2 className="text-4xl max-w-xl text-primary">
             모든 영역에서 학생들의 비판적 사고 능력 향상 및 이해력 향상!
           </h2>
@@ -35,11 +39,12 @@ const page = () => {
             alt="파란색 책 밑에 빨간색 책 밑에 노란색 책이 있는 이미지"
             height={250}
             width={220}
+            className="hidden"
           />
         </div>
-        <article className="py-16">
-          <div className="bg-[url('/kids.webp')] bg-cover bg-center bg-no-repeat h-[615px] w-[915px] rounded-3xl mx-auto">
-            <div className="bg-white/80 h-full w-[58%] flex items-center justify-center">
+        <article className="lg:py-16">
+          <div className="bg-[url('/kids.webp')] bg-cover bg-center bg-no-repeat h-[615px] lg:w-[915px] lg:rounded-3xl mx-auto">
+            <div className="bg-white/80 h-full lg:w-[58%] flex items-center justify-center">
               <ol className="max-w-[320px] space-y-12 font-gmarketSans font-medium text-lg list-decimal list-inside">
                 <li>
                   <span className="ml-4">읽기 </span>
@@ -70,17 +75,17 @@ const page = () => {
           <img
             src="/pencil.svg"
             alt="파란색 책 밑에 빨간색 책 밑에 노란색 책이 있는 이미지"
-            className="-translate-y-10 translate-x-[-100%] absolute"
+            className="-translate-y-10 translate-x-[-100%] absolute hidden lg:block"
             height={250}
             width={220}
           />
-          <h3 className="font-saira text-4xl text-white font-medium translate-x-12">
+          <h3 className="font-saira text-4xl text-white font-medium lg:translate-x-12">
             Writing course
           </h3>
         </div>
-        <article className="py-32">
-          <div className="bg-[url('/kids1.webp')] bg-cover bg-bottom bg-no-repeat h-[615px] w-[915px] rounded-3xl mx-auto">
-            <div className="bg-white/80 h-full w-[58%] flex items-center justify-center mr-0 ml-auto">
+        <article className="lg:py-32">
+          <div className="bg-[url('/kids1.webp')] bg-cover bg-bottom bg-no-repeat h-[615px] lg:w-[915px] lg:rounded-3xl mx-auto">
+            <div className="bg-white/80 h-full lg:w-[58%] flex items-center justify-center mr-0 ml-auto">
               <ol className="max-w-[320px] space-y-12 font-gmarketSans font-medium text-lg list-decimal list-inside">
                 <li>
                   <span className="ml-4">한국 </span>
@@ -103,12 +108,12 @@ const page = () => {
           </div>
         </article>
       </section>
-      <section className="bg-primary relative p-16 sun-container">
-        <h4 className="font-saira text-[5rem] text-6xl text-white max-w-3xl">
+      <section className="bg-primary relative lg:p-16 sun-container py-16 px-6">
+        <h4 className="font-saira  lg:text-[5rem] text-6xl text-white max-w-3xl">
           What makes our curriculum special?
         </h4>
-        <ul className="grid-cols-6 grid gap-[1.4rem] font-gmarketSans text-white place-items-center py-16">
-          <li className="h-[300px] w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center">
+        <ul className="xl:grid-cols-6 grid gap-[1.4rem] font-gmarketSans text-white place-items-center py-16 md:grid-cols-3 sm:grid-cols-2">
+          <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">1</div>
             <span className="flex flex-col gap-4 text-lg">
               <span>읽기 전략:</span>
@@ -117,7 +122,7 @@ const page = () => {
               </span>
             </span>
           </li>
-          <li className="h-[300px] w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center">
+          <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">2</div>
             <span className="flex flex-col gap-4 text-lg">
               <span>비판적 사고:</span>
@@ -126,14 +131,14 @@ const page = () => {
               </span>
             </span>
           </li>
-          <li className="h-[300px] w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center">
+          <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">3</div>
             <span className="flex flex-col gap-4 text-lg">
               <span>다양한 읽기 자료:</span>
               <span className="max-w-[150px] h-[60px]">다양한 주제와 장르</span>
             </span>
           </li>
-          <li className="h-[300px] w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center">
+          <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">4</div>
             <span className="flex flex-col gap-4 text-lg">
               <span>어휘 발달:</span>
@@ -143,7 +148,7 @@ const page = () => {
               </span>
             </span>
           </li>
-          <li className="h-[300px] w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center">
+          <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">5</div>
             <span className="flex flex-col gap-4 text-lg">
               <span>연습문제 및 활동:</span>
@@ -152,7 +157,7 @@ const page = () => {
               </span>
             </span>
           </li>
-          <li className="h-[300px] w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center">
+          <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">6</div>
             <span className="flex flex-col gap-4 text-lg">
               <span>기술 통함:</span>
@@ -164,10 +169,10 @@ const page = () => {
         </ul>
       </section>
       <section className="py-24">
-        <h5 className="font-saira text-[5rem] text-6xl text-center font-medium text-primary">
+        <h5 className="font-saira lg:text-[5rem] text-6xl text-center font-medium text-primary">
           Where do I belong?
         </h5>
-        <div className="overflow-x-scroll mt-32">
+        <article className="overflow-x-scroll mt-32 px-4">
           <table className="mx-auto min-w-fit font-saira">
             <thead>
               <tr className="uppercase flex gap-4 font-medium text-[12px]">
@@ -420,13 +425,13 @@ const page = () => {
                   29 - 30
                 </td>
               </tr>
-              <tfoot className="py-24 flex flex-col text-base font-medium">
-                <span>* E group - Elementary (초)</span>
-                <span>* M group - Middle (중)</span>
-              </tfoot>
             </tbody>
           </table>
-        </div>
+          <div className="py-24 flex flex-col text-base font-medium">
+            <span>* E group - Elementary (초)</span>
+            <span>* M group - Middle (중)</span>
+          </div>
+        </article>
       </section>
     </main>
   );
