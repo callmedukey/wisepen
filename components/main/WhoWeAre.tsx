@@ -9,7 +9,7 @@ const WhoWeAre = () => {
         Who we are
       </h2>
       <div className="grid md:grid-cols-2 gap-x-6 max-w-4xl mx-auto gap-y-12 px-8 md:px-0">
-        <div className="space-y-12 order-2 sm:order-1">
+        <div className="space-y-12 order-2">
           <h3 className="text-primary font-medium text-4xl text-pretty text-center">
             Our Mission
           </h3>
@@ -22,7 +22,7 @@ const WhoWeAre = () => {
             초점을 맞추고 있습니다.
           </p>
         </div>
-        <div className="order-1 sm:order-2">
+        <div className="order-1">
           <img
             src="/handsup.webp"
             alt="손을 들고 질문을 하는 학생"
@@ -31,7 +31,7 @@ const WhoWeAre = () => {
             width={500}
           />
         </div>
-        <div className="relative order-3 sm:order-4">
+        <div className="relative order-3 md:order-4">
           <img
             src="/teachers.webp"
             alt="컴퓨터앞에서 지도하는 선생님"
@@ -40,7 +40,7 @@ const WhoWeAre = () => {
             width={500}
           />
         </div>
-        <div className="space-y-6 order-4 sm:order-3">
+        <div className="space-y-6 order-4 md:order-3">
           <h3 className="text-primary font-medium text-4xl text-pretty text-center">
             Our Mindset
           </h3>
