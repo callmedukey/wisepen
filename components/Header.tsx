@@ -7,7 +7,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="absolute left-0 right-0 top-0 w-screen text-base flex justify-end items-center px-[200px] py-9 gap-16 font-medium text-white font-gmarketSans">
+    <header className="absolute left-0 right-0 top-0 w-screen text-base flex sm:justify-end justify-center items-center sm:px-[100px] xl:px-[200px] py-9 gap-6 xl:gap-16 font-medium text-white font-gmarketSans">
       <Link href="/" className={cn("relative", pathname === "/" && "location")}>
         학원 소개
       </Link>

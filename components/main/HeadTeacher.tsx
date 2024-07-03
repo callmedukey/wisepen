@@ -1,8 +1,8 @@
 const HeadTeacher = () => {
   return (
-    <section className="py-16 bg-primary font-gmarketSans">
-      <div className="grid grid-cols-2 divide-x bg-primary text-white max-w-6xl mx-auto h-[500px]">
-        <article className="flex flex-col gap-6">
+    <section className="sm:py-16 bg-primary font-gmarketSans py-4 px-4 md:px-0">
+      <div className="grid sm:grid-cols-2 sm:divide-x divide-y sm:divide-y-0 bg-primary text-white max-w-6xl mx-auto md:h-[500px] px-4 sm:px-0 h-[200%]">
+        <article className="flex flex-col gap-6 py-4 sm:py-0 px-4 lg:px-0">
           <h4 className="text-2xl text-center h-[50px]">
             <span className="text-4xl">원장 </span>
             인사말
@@ -27,8 +27,8 @@ const HeadTeacher = () => {
             </p>
           </div>
         </article>
-        <article className="flex flex-col gap-6 pl-[75px]">
-          <div className="h-[50px]" />
+        <article className="flex flex-col gap-6 md:pl-[75px] py-4 sm:py-0 px-4">
+          <div className="h-[50px] hidden sm:block" />
           <h5 className="text-3xl">Arnold Chi 원장</h5>
           <div className="space-y-4">
             <strong className="text-xl font-bold">학력</strong>

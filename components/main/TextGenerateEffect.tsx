@@ -26,7 +26,10 @@ export const TextGenerateEffect = ({
 
   const renderWords = () => {
     return (
-      <motion.span ref={scope} className="relative block h-[130px] font-normal">
+      <motion.span
+        ref={scope}
+        className="relative block xl:h-[130px] h-full sm:h-[150px] font-normal"
+      >
         {wordsArray.map((word, idx) => {
           return (
             <motion.span key={word + idx} className="text-white opacity-0">
@@ -35,7 +38,7 @@ export const TextGenerateEffect = ({
           );
         })}
         <motion.span
-          className="text-white absolute bottom-2 right-24"
+          className="text-white sm:absolute bottom-2 right-24"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 3, duration: 1 }}
@@ -47,7 +50,7 @@ export const TextGenerateEffect = ({
   };
 
   return (
-    <p className="text-[30px] max-w-[950px] text-center mt-32">
+    <p className="text-[30px] max-w-[950px] text-center mt-12 sm:mt-32 px-4">
       {renderWords()}
     </p>
   );
