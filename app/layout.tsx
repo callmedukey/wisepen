@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import Header from "@/components/Header";
 import localFont from "next/font/local";
+import Footer from "@/components/Footer";
 const saira = Saira({ subsets: ["latin"], variable: "--font-saira" });
 
 export const metadata: Metadata = {
@@ -45,6 +46,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
