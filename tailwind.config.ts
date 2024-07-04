@@ -22,6 +22,7 @@ const config = {
       fontFamily: {
         saira: ["var(--font-saira)", ...fontFamily.sans],
         gmarketSans: ["var(--font-gmarket-sans)", ...fontFamily.sans],
+        gowunBatang: ["var(--font-gowun-batang)", ...fontFamily.sans],
       },
       colors: {
         border: "hsl(var(--border))",

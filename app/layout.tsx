@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Saira } from "next/font/google";
+import { Saira, Gowun_Batang } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Header from "@/components/Header";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
 const saira = Saira({ subsets: ["latin"], variable: "--font-saira" });
+
+const gowunBatang = Gowun_Batang({
+  subsets: ["latin"],
+  variable: "--font-gowun-batang",
+  weight: "400",
+});
 
 export const metadata: Metadata = {
   title: "Wisepen Language Institute",
@@ -72,7 +78,8 @@ export default function RootLayout({
         className={cn(
           "min-h-screen bg-background font-sans antialiased relative",
           gmarketSans.variable,
-          saira.variable
+          saira.variable,
+          gowunBatang.variable
         )}
       >
         <Header />

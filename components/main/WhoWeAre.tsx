@@ -5,15 +5,15 @@ import React from "react";
 const WhoWeAre = () => {
   return (
     <section className="py-16 space-y-16 px-4">
-      <h2 className="text-center text-6xl text-primary font-medium">
+      <h2 className="text-center text-6xl text-primary font-medium font-saira">
         Who we are
       </h2>
       <div className="grid md:grid-cols-2 gap-x-6 max-w-4xl mx-auto gap-y-12 px-8 md:px-0">
-        <div className="space-y-12 order-2">
-          <h3 className="text-primary font-medium text-4xl text-pretty text-center">
+        <div className="space-y-12 md:order-1 order-2">
+          <h3 className="text-primary font-medium text-4xl text-pretty text-center font-saira">
             Our Mission
           </h3>
-          <p className="text-lg font-gmarketSans">
+          <p className="text-lg font-gowunBatang">
             와이스펜 어학원은 학생들에게 따뜻하고 효과적인 학습 환경을 제공하는
             것이 목표입니다. 많은 영어 학원들이 속도에 치중하는 반면, 우리는
             학생들의 완전한 이해와 숙달을 우선시하며, 학생들이 성공하는 데
@@ -22,29 +22,29 @@ const WhoWeAre = () => {
             초점을 맞추고 있습니다.
           </p>
         </div>
-        <div className="order-1">
+        <div className="md:order-2 order-1">
           <img
             src="/handsup.webp"
             alt="손을 들고 질문을 하는 학생"
-            className="mx-auto"
-            height={400}
+            className="mx-auto md:h-[300px]"
+            height={300}
             width={500}
           />
         </div>
-        <div className="relative order-3 md:order-4">
+        <div className="relative order-3 md:order-3">
           <img
             src="/teachers.webp"
             alt="컴퓨터앞에서 지도하는 선생님"
-            className="mx-auto"
-            height={400}
+            className="mx-auto md:h-[300px]"
+            height={300}
             width={500}
           />
         </div>
-        <div className="space-y-6 order-4 md:order-3">
-          <h3 className="text-primary font-medium text-4xl text-pretty text-center">
+        <div className="space-y-6 order-4 md:order-4">
+          <h3 className="text-primary font-medium text-4xl text-pretty text-center font-saira">
             Our Mindset
           </h3>
-          <p className="text-lg md:pl-12 font-gmarketSans">
+          <p className="text-lg md:pl-12 font-gowunBatang">
             경쟁적인 교육 환경에서 학생들이 겪는 어려움을 인식하고 있기에 각
             학생의 개별적인 수준에 맞춰 구조화된 학습 접근법을 채택하고
             있습니다. 우리 강사들은 속도보다는 깊이 있는 이해를 중시하여, 모든
