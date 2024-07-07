@@ -63,7 +63,7 @@ const page = () => {
                 </li>
                 <li>
                   <span className="ml-4">학문적인 </span>책 외에도 고전 소설
-                  등을 읽고 토론하며 읽기 능력을 심수 있습니다.
+                  등을 읽고 토론하며 읽기 능력을 향상시킬 수 있습니다.
                 </li>
               </ol>
             </div>
@@ -160,9 +160,9 @@ const page = () => {
           <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">6</div>
             <span className="flex flex-col gap-4 text-lg">
-              <span>기술 통함:</span>
+              <span>다양한 스킬의 통합:</span>
               <span className="max-w-[150px] h-[60px]">
-                읽기, 쓰기, 비판적 사고 기술의 통합
+                읽기, 쓰기, 비판적 사고
               </span>
             </span>
           </li>
@@ -170,7 +170,7 @@ const page = () => {
       </section>
       <section className="py-24">
         <h5 className="font-saira lg:text-[5rem] text-6xl text-center font-medium text-primary">
-          Where do I belong?
+          Our program
         </h5>
         <article className="overflow-x-scroll mt-32 px-4">
           <table className="mx-auto min-w-fit font-saira">
@@ -245,6 +245,29 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Foundation (M group)
+                </td>
+                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  <span className="max-w-[180px]">
+                    Basic reading comprehension, listening, and speaking/
+                    grammar sentence and paragraph writing
+                  </span>
+                </td>
+                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                  O
+                </td>
+                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                  O
+                </td>
+                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  550 - 700
+                </td>
+                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  15 - 18
+                </td>
+              </tr>
+              <tr className="flex gap-4 text-center text-[12px]">
+                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   Core (E group)
                 </td>
                 <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
@@ -295,12 +318,11 @@ const page = () => {
                 </td>
                 <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
-                    Skilled reading comprehension and introduction to academic
-                    essays
+                    Comprehension and introduction to academic essays
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
+                  X
                 </td>
                 <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
@@ -318,12 +340,11 @@ const page = () => {
                 </td>
                 <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
-                    Skilled reading comprehension and introduction to academic
-                    essays
+                    Comprehension and introduction to academic essays
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
+                  X
                 </td>
                 <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
