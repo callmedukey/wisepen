@@ -76,7 +76,7 @@ export default function RootLayout({
     <html lang="ko">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased relative",
+          "min-h-screen bg-background font-sans antialiased relative !break-keep",
           gmarketSans.variable,
           saira.variable,
           gowunBatang.variable

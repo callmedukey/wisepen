@@ -13,7 +13,7 @@ const WhoWeAre = () => {
           <h3 className="text-primary font-medium text-4xl text-pretty text-center font-saira">
             Our Mission
           </h3>
-          <p className="text-lg font-gowunBatang">
+          <p className="text-lg font-gowunBatang break-keep">
             와이스펜 어학원은 학생들에게 따뜻하고 효과적인 학습 환경을 제공하는
             것이 목표입니다. 많은 영어 학원들이 속도에 치중하는 반면, 우리는
             학생들의 완전한 이해와 숙달을 우선시하며, 학생들이 성공하는 데
@@ -44,7 +44,7 @@ const WhoWeAre = () => {
           <h3 className="text-primary font-medium text-4xl text-pretty text-center font-saira">
             Our Mindset
           </h3>
-          <p className="text-lg md:pl-12 font-gowunBatang">
+          <p className="text-lg md:pl-12 font-gowunBatang break-keep">
             경쟁적인 교육 환경에서 학생들이 겪는 어려움을 인식하고 있기에 각
             학생의 개별적인 수준에 맞춰 구조화된 학습 접근법을 채택하고
             있습니다. 우리 강사들은 속도보다는 깊이 있는 이해를 중시하여, 모든

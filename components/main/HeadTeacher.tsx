@@ -1,7 +1,7 @@
 const HeadTeacher = () => {
   return (
     <section className="sm:py-16 bg-primary font-gmarketSans py-4 px-4 md:px-0">
-      <div className="grid sm:grid-cols-2 sm:divide-x divide-y sm:divide-y-0 bg-primary text-white max-w-6xl mx-auto md:h-[500px] px-4 sm:px-0 h-[200%]">
+      <div className="grid sm:grid-cols-2 sm:divide-x divide-y sm:divide-y-0 bg-primary text-white max-w-6xl mx-auto md:h-[600px] px-4 sm:px-0 h-[200%]">
         <article className="flex flex-col gap-6 py-4 sm:py-0 px-4 lg:px-0">
           <h4 className="text-2xl text-center h-[50px]">
             <span className="text-4xl">원장 </span>
