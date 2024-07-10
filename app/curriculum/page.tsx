@@ -112,6 +112,9 @@ const page = () => {
         <h4 className="font-saira  lg:text-[5rem] text-6xl text-white max-w-3xl">
           What makes our curriculum special?
         </h4>
+        <article className="text-center text-white text-5xl font-semibold font-saira mt-36 mb-12">
+          수업은 100% 영어로 진행
+        </article>
         <ul className="xl:grid-cols-6 grid gap-[1.4rem] font-gmarketSans text-white place-items-center py-16 md:grid-cols-3 sm:grid-cols-2">
           <li className="h-[300px] sm:w-[180px] grid grid-rows-2 justify-center text-center bg-secondary py-[26px] rounded-3xl items-center w-full">
             <div className=" font-bold text-5xl">1</div>
@@ -176,273 +179,273 @@ const page = () => {
           <table className="mx-auto min-w-fit font-saira">
             <thead>
               <tr className="uppercase flex gap-4 font-medium text-[12px]">
-                <th className="bg-primary text-white h-[63px] w-[125px] flex items-center justify-center rounded-2xl">
+                <th className="bg-primary text-white h-[75px] w-[105px] flex items-center justify-center rounded-2xl">
                   class level
                 </th>
-                <th className="bg-primary text-white h-[63px] w-[250px] flex items-center justify-center rounded-2xl">
+                <th className="bg-primary text-white h-[75px] w-[250px] flex items-center justify-center rounded-2xl">
                   <span>main subjects</span>
                 </th>
-                <th className="bg-primary text-white h-[63px] w-[125px] flex items-center justify-center rounded-2xl">
+                <th className="bg-primary text-white h-[75px] w-[125px] flex items-center justify-center rounded-2xl">
                   speaking & Listening
                 </th>
-                <th className="bg-primary text-white h-[63px] w-[90px] flex items-center justify-center rounded-2xl">
+                <th className="bg-primary text-white h-[75px] w-[90px] flex items-center justify-center rounded-2xl">
                   Novel
                 </th>
-                <th className="bg-primary text-white h-[63px] w-[100px] flex items-center justify-center rounded-2xl">
+                <th className="bg-primary text-white h-[75px] w-[100px] flex items-center justify-center rounded-2xl">
                   Lexile
                 </th>
-                <th className="bg-primary text-white h-[63px] w-[150px] flex items-center justify-center rounded-2xl">
+                <th className="bg-primary text-white h-[75px] w-[150px] flex items-center justify-center rounded-2xl">
                   placement score (out of 30)
                 </th>
               </tr>
             </thead>
             <tbody className="">
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Discovery (E group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing E1
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
                     Introduction to reading comprehension/ grammar and sentence
                     writing
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   X
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   N/A
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   11 - 14
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Foundation (E group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing E2
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
                     Basic reading comprehension, grammar, and sentence and
                     paragraph writing
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   430 - 600
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   15 - 18
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Foundation (M group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing M2
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
                     Basic reading comprehension, listening, and speaking/
                     grammar sentence and paragraph writing
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   550 - 700
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   15 - 18
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Core (E group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing E3
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Intermediate reading comprehension, grammar, and paragraph
                     development to essay writing
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   600 - 700
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   19 - 22
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Core (M group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing M3
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Intermediate reading comprehension, grammar, and paragraph
                     development to essay writing
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   700 - 800
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   19 - 22
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Bridge (E group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing E4
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Comprehension and introduction to academic essays
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   X
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   680 - 800
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   23 - 26
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Bridge (M group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing M4
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Comprehension and introduction to academic essays
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   X
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   750 - 900
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   23 - 26
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Summit (E group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing E5
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Advanced reading comprehension and applied essay writing
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   X
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   800 - 900
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   27 - 28
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Summit (M group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing M5
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Advanced reading comprehension and applied essay writing
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   X
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   850 - 950
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   27 - 28
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Zenith (E group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing E6
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Proficient reading comprehension and advanced writing
                     composition
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   X
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   880 - 1200
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   29 - 30
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Zenith (M group)
+                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                  Reading/writing M6
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
                     Proficient reading comprehension and advanced writing
                     composition
                   </span>
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   X
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
+                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   900 - 1200
                 </td>
-                <td className="bg-[--primary-gray] h-[63px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
+                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   29 - 30
                 </td>
               </tr>

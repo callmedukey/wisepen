@@ -37,7 +37,7 @@ const HeadTeacher = () => {
             </ul>
             <strong className="text-xl font-bold block">경력 총 17년</strong>
             <ul className="list-inside list-disc px-4 text-xl">
-              <li>이안어학원 대치 지점 (Head Teacher)</li>
+              <li>이안어학원 대치 지점 (14년 메인 강사)</li>
               <li>청담어학원</li>
               <li>파고다어학원 강남 지점</li>
             </ul>
