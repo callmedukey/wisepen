@@ -35,7 +35,7 @@ const HeadTeacher = () => {
             <ul className="list-inside list-disc px-4 text-xl">
               <li>미국 오하이오 주립대학교에서 국제학 학사 졸업</li>
             </ul>
-            <strong className="text-xl font-bold block">경력 총 17년</strong>
+            <strong className="text-xl font-bold block">경력 총 18년</strong>
             <ul className="list-inside list-disc px-4 text-xl">
               <li>이안어학원 대치 지점 (14년 메인 강사)</li>
               <li>청담어학원</li>
