@@ -47,6 +47,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
+  other: {
+    "naver-site-verification": "651f06aa7eafc86cc5a82989a6dda3df74b12295",
+  },
 };
 
 const gmarketSans = localFont({
