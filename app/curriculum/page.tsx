@@ -202,7 +202,7 @@ const page = () => {
             <tbody className="">
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing E1
+                  E1
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
@@ -225,7 +225,7 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing E2
+                  E2
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
@@ -248,12 +248,12 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing M2
+                  M2
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
-                    Basic reading comprehension, listening, and speaking/
-                    grammar sentence and paragraph writing
+                    Basic reading comprehension, grammar, and sentence and
+                    paragraph writing
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
@@ -271,7 +271,7 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing E3
+                  E3
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
@@ -294,7 +294,7 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing M3
+                  M3
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
@@ -317,11 +317,12 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing E4
+                  E4
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
-                    Comprehension and introduction to academic essays
+                    Skilled reading comprehension and introduction to academic
+                    essays
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
@@ -339,11 +340,12 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing M4
+                  M4
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
-                    Comprehension and introduction to academic essays
+                    Skilled reading comprehension and introduction to academic
+                    essays
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
@@ -361,7 +363,7 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing E5
+                  E5
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
@@ -383,7 +385,7 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing M5
+                  M5
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
@@ -405,7 +407,7 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing E6
+                  E6
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
@@ -428,7 +430,7 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  Reading/writing M6
+                  M6
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
