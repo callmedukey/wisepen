@@ -1,7 +1,7 @@
 const page = () => {
   return (
     <main>
-      <div className="flex flex-col items-center justify-center bg-[url('/book.webp')] bg-cover bg-bottom bg-no-repeat h-[400px]">
+      <div className="flex flex-col items-center justify-center bg-[url('/book.webp')] bg-cover bg-bottom bg-no-repeat h-[500px]">
         <div className="bg-primary/70 items-center flex h-full w-full justify-center">
           <h1 className="text-center text-white text-6xl font-gmarketSans uppercase flex items-center justify-center font-medium">
             프로그램 및 교육과정

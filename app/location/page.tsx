@@ -1,7 +1,7 @@
 const page = () => {
   return (
     <main className="lg:py-12 min-h-[100vh] bg-primary flex items-center justify-center flex-col gap-16 py-32">
-      <h1 className="text-center font-medium text-4xl font-gmarketSans text-white border-b py-6 w-[300px]">
+      <h1 className="text-center font-medium text-4xl font-gmarketSans text-white border-b py-12 w-[300px]">
         오시는길
       </h1>
       <section className="grid lg:grid-cols-[45%_55%] max-w-[1000px] mx-auto px-4 text-white gap-12">
