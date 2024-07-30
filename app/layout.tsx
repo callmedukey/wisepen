@@ -14,7 +14,7 @@ const gowunBatang = Gowun_Batang({
 });
 
 export const metadata: Metadata = {
-  title: "와이즈펜 어학원",
+  title: "와이스펜 어학원",
   description:
     "Wisepen는 비판적 읽기, 문법 기술, 창의적 에세이 작문을 마스터하는 따뜻하고 효과적인 학습 환경을 제공합니다. 각 학생의 요구에 맞춘 맞춤형 심층 교육으로 영어 실력을 향상시키세요.",
   keywords: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: "https://wisepenenglish.com/handsup.webp",
     type: "website",
     url: `https://wisepenenglish.com`,
-    title: `와이즈펜 어학원`,
+    title: `와이스펜 어학원`,
     description: `Wisepen는 비판적 읽기, 문법 기술, 창의적 에세이 작문을 마스터하는 따뜻하고 효과적인 학습 환경을 제공합니다. 각 학생의 요구에 맞춘 맞춤형 심층 교육으로 영어 실력을 향상시키세요.`,
   },
   icons: {
