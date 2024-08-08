@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="mb-2 text-lg font-semibold">Contact</h4>
-            <p>Phone: 010-3020-2807</p>
+            <p>Phone: 031-915-2185</p>
             <p>Email: Arnold@wisepenenglish.com</p>
           </div>
           <div />
