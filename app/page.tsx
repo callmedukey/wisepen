@@ -1,3 +1,4 @@
+import AcademyPics from "@/components/main/AcademyPics";
 import HeadTeacher from "@/components/main/HeadTeacher";
 import HeroSection from "@/components/main/HeroSection";
 import WhoWeAre from "@/components/main/WhoWeAre";
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <WhoWeAre />
       <HeadTeacher />
+      <AcademyPics />
     </main>
   );
 }

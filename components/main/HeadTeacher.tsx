@@ -39,10 +39,10 @@ const HeadTeacher = () => {
               <h6 className="text-2xl font-bold">Arnold Chi 원장/해드 강사</h6>
               <div className="space-y-4 text-base">
                 <strong className="font-bold">학력</strong>
-                <ul className="list-inside list-disc px-4 text-lg font-medium">
+                <ul className="list-inside list-disc px-4 text-base font-medium">
                   <li>미국 오하이오 주립대학교에서 국제학 학사 졸업</li>
                 </ul>
-                <strong className="font-bold block">경력 총 18년</strong>
+                <strong className="font-bold block">경력 총 17년</strong>
                 <ul className="list-inside list-disc px-4">
                   <li>이안어학원 대치 지점 (14년 메인 강사)</li>
                   <li>청담어학원</li>
@@ -64,7 +64,7 @@ const HeadTeacher = () => {
                   </li>
                 </ul>
                 <strong className="text-base font-bold block">
-                  경력 총 18년
+                  경력 총 10년
                 </strong>
                 <ul className="list-inside list-disc px-4 text-base">
                   <li>이안어학원 대치 지점</li>
