@@ -14,7 +14,7 @@ const page = () => {
           </p>
           <p className="flex flex-col gap-2">
             <span className="text-3xl">Contact Us</span>
-            <span>010-3020-2807</span>
+            <span>031-915-2185</span>
             <span>Arnold@wisepenenglish.com</span>
           </p>
         </article>
