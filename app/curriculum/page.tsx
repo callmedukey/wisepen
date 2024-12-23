@@ -191,9 +191,7 @@ const page = () => {
                 <th className="bg-primary text-white h-[75px] w-[90px] flex items-center justify-center rounded-2xl">
                   Novel
                 </th>
-                <th className="bg-primary text-white h-[75px] w-[100px] flex items-center justify-center rounded-2xl">
-                  Lexile
-                </th>
+
                 <th className="bg-primary text-white h-[75px] w-[150px] flex items-center justify-center rounded-2xl">
                   placement score (out of 30)
                 </th>
@@ -202,11 +200,11 @@ const page = () => {
             <tbody className="">
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  E1
+                  E1/M1
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
-                    Introduction to reading comprehension/ grammar and sentence
+                    Introduction to reading comprehension, grammar and basic sentence
                     writing
                   </span>
                 </td>
@@ -214,23 +212,20 @@ const page = () => {
                   O
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  X
+                  O
                 </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  N/A
-                </td>
+
                 <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   11 - 14
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  E2
+                  E2/M2
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[180px]">
-                    Basic reading comprehension, grammar, and sentence and
-                    paragraph writing
+                    Basic reading comprehension, grammar, and paragraph construction
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
@@ -239,39 +234,13 @@ const page = () => {
                 <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  430 - 600
-                </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   15 - 18
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  M2
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  <span className="max-w-[180px]">
-                    Basic reading comprehension, grammar, and sentence and
-                    paragraph writing
-                  </span>
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  550 - 700
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  15 - 18
-                </td>
-              </tr>
-              <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  E3
+                  E3/M3
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
@@ -285,44 +254,18 @@ const page = () => {
                 <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
                 </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  600 - 700
-                </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   19 - 22
                 </td>
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  M3
+                  E4/M4
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
-                    Intermediate reading comprehension, grammar, and paragraph
-                    development to essay writing
-                  </span>
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  700 - 800
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  19 - 22
-                </td>
-              </tr>
-              <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  E4
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  <span className="max-w-[220px]">
-                    Skilled reading comprehension and introduction to academic
-                    essays
+                    Skilled reading comprehension and academic essays
+                    construction
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
@@ -330,22 +273,18 @@ const page = () => {
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  680 - 800
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   23 - 26
                 </td>
               </tr>
-              <tr className="flex gap-4 text-center text-[12px]">
+                <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  M4
+                  E5/M5
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
-                    Skilled reading comprehension and introduction to academic
-                    essays
+                    Advanced reading comprehension and applied analytical writing
                   </span>
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
@@ -353,31 +292,6 @@ const page = () => {
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  750 - 900
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  23 - 26
-                </td>
-              </tr>
-              <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  E5
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  <span className="max-w-[220px]">
-                    Advanced reading comprehension and applied essay writing
-                  </span>
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  X
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  800 - 900
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   27 - 28
@@ -385,33 +299,11 @@ const page = () => {
               </tr>
               <tr className="flex gap-4 text-center text-[12px]">
                 <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  M5
+                  E6/M6
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   <span className="max-w-[220px]">
-                    Advanced reading comprehension and applied essay writing
-                  </span>
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  X
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  850 - 950
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  27 - 28
-                </td>
-              </tr>
-              <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  E6
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  <span className="max-w-[220px]">
-                    Proficient reading comprehension and advanced writing
+                    Proficient reading analysis and mastery of
                     composition
                   </span>
                 </td>
@@ -420,32 +312,6 @@ const page = () => {
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
                   O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  880 - 1200
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  29 - 30
-                </td>
-              </tr>
-              <tr className="flex gap-4 text-center text-[12px]">
-                <td className="bg-[--primary-gray] h-[75px] w-[105px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  M6
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[250px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  <span className="max-w-[220px]">
-                    Proficient reading comprehension and advanced writing
-                    composition
-                  </span>
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[125px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  X
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[90px] flex items-center justify-center rounded-2xl font-medium mt-4 text-lg">
-                  O
-                </td>
-                <td className="bg-[--primary-gray] h-[75px] w-[100px] flex items-center justify-center rounded-2xl font-medium mt-4">
-                  900 - 1200
                 </td>
                 <td className="bg-[--primary-gray] h-[75px] w-[150px] flex items-center justify-center rounded-2xl font-medium mt-4">
                   29 - 30
